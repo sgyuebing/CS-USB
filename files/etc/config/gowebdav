@@ -8,5 +8,5 @@ config gowebdav 'config'
 	option enable_auth '1'
 	option username '123'
 	option password '123'
-	option mount_dir '/mnt/mmcblk0p1'
+	option mount_dir '/mnt/'
 

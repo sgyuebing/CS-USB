@@ -17,6 +17,8 @@ config zone
 	option name 'wan'
 	list network 'wan'
 	list network 'wan6'
+	list network 'trw_wwan'
+	list network 'trw_wwan6'
 	option output 'ACCEPT'
 	option masq '1'
 	option mtu_fix '1'

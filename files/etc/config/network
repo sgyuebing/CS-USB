@@ -23,6 +23,7 @@ config interface 'lan'
 config interface 'wan'
 	option proto 'dhcp'
 	option device 'eth1'
+	option metric '101'
 
 config interface 'wan6'
 	option proto 'dhcpv6'
@@ -39,4 +40,12 @@ config device
 	option name 'eth1'
 	option mtu '1300'
 	option macaddr '36:09:66:0A:87:5B'
+
+config interface 'trw_wwan'
+	option proto 'dhcp'
+	option metric '100'
+
+config interface 'trw_wwan6'
+	option device '@trw_wwan'
+	option proto 'dhcpv6'
 
