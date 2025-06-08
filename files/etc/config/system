@@ -32,8 +32,8 @@ config led
 	list mode 'rx'
 
 config led
-	option name 'wifi'
-	option sysfs 'wifi:status'
+	option name 'Wifi'
+	option sysfs 'Wifi:status'
 	option trigger 'netdev'
 	list mode 'link'
 	list mode 'tx'
