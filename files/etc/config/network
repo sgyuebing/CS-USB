@@ -25,12 +25,6 @@ config interface 'wan'
 	option device 'eth1'
 	option metric '101'
 
-config interface 'wan6'
-	option proto 'dhcpv6'
-	option device 'eth1'
-	option reqaddress 'try'
-	option reqprefix 'auto'
-
 config switch
 	option name 'switch0'
 	option reset '1'
