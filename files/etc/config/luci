@@ -1,9 +1,9 @@
 
 config core 'main'
-	option lang 'auto'
 	option resourcebase '/luci-static/resources'
 	option ubuspath '/ubus/'
 	option mediaurlbase '/luci-static/bootstrap-mmdvm'
+	option lang 'zh_cn'
 
 config extern 'flash_keep'
 	option uci '/etc/config/'

@@ -11,7 +11,16 @@ config share
 	option users 'root'
 	option guest_ok 'yes'
 	option create_mask '0755'
-	option dir_mask '0755'
 	option force_root '1'
 	option hide_dot_files 'no'
+	option dir_mask '0777'
+
+config share
+	option name 'USB'
+	option path '/mnt/sda1'
+	option read_only 'no'
+	option users 'root'
+	option guest_ok 'yes'
+	option create_mask '0755'
+	option dir_mask '0777'
 
