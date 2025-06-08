@@ -33,7 +33,7 @@ config led
 
 config led
 	option name 'wifi'
-	option sysfs 'amber:status'
+	option sysfs 'wifi:status'
 	option trigger 'netdev'
 	list mode 'link'
 	list mode 'tx'
